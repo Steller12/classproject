@@ -1,0 +1,14 @@
+p{
+    color: wheat;
+    vertical-align: middle;
+    margin: auto;
+    max-width: 500px;
+}
+div{
+    color: wheat;
+    margin: auto;
+    max-width: 300px;
+}
+body{
+    background-color: black;
+}
