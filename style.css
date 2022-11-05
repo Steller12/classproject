@@ -1,8 +1,12 @@
+*{
+    align-items: center;
+}
 p{
     color: wheat;
     vertical-align: middle;
-    margin: auto;
+    margin: 100px;
     max-width: 500px;
+    border: 2px solid bisque;
 }
 div{
     color: wheat;
@@ -10,5 +14,16 @@ div{
     max-width: 300px;
 }
 body{
-    background-color: black;
+    background-color:#ffa299;
+background-image:
+radial-gradient(at 25% 56%, hsla(235,96%,73%,1) 0px, transparent 50%),
+radial-gradient(at 95% 79%, hsla(58,91%,63%,1) 0px, transparent 50%),
+radial-gradient(at 53% 31%, hsla(78,88%,79%,1) 0px, transparent 50%),
+radial-gradient(at 76% 95%, hsla(101,60%,65%,1) 0px, transparent 50%),
+radial-gradient(at 97% 24%, hsla(98,83%,62%,1) 0px, transparent 50%),
+radial-gradient(at 27% 48%, hsla(75,70%,79%,1) 0px, transparent 50%),
+radial-gradient(at 22% 77%, hsla(223,81%,78%,1) 0px, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
